@@ -1,11 +1,11 @@
-#文字列の逆順
+#「パタトクカシーー」
 
 def main():
-    s = "stressed"
+    str = "パタトクカシーー"
 
-    reversed_s = s[::-1]
+    ans = str[::2]
 
-    print(reversed_s)
+    print(ans)
 
 if __name__=="__main__":
     main()
