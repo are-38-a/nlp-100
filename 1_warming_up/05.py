@@ -4,7 +4,7 @@ def n_gram(n, list_target):
     list_n_gram = []
 
     for i in range(len(list_target) - n + 1):
-        list_n_gram.append(" ".join(list_target[i:i+n]))
+        list_n_gram.append(tuple(list_target[i:i+n]))
 
     return list_n_gram
 
