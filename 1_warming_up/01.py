@@ -1,9 +1,9 @@
 #「パタトクカシーー」
 
 def main():
-    str = "パタトクカシーー"
+    str1 = "パタトクカシーー"
 
-    ans = str[::2]
+    ans = str1[::2]
 
     print(ans)
 
